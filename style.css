@@ -1,0 +1,225 @@
+#page{
+  transition: margin-left .5s;
+  padding: 0px;
+}
+
+.card{
+  background-color:rgb(0, 141, 206);
+  border: 3px solid rgb(200, 200, 200);
+  border-radius: 13px;
+  width: 1500px;
+  display:block;
+  margin-top:60px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.card h2{
+  color:white;
+  font-family:"Arial";
+  text-align:center;
+}
+
+.card h3{
+  color:white;
+  font-family:"Arial";
+  text-align:center;
+}
+
+.card p{
+  color:white;
+  font-family:"Arial";
+  font-size:20px;
+  text-align:center;
+}
+
+.card hr{
+  border: 1.5px solid rgb(190, 190, 190);
+}
+
+#header{
+  background-color:rgb(0, 141, 206);
+  background-repeat:no repeat;
+  background-position:center top;
+  background-size:contain;
+}
+
+#header h1{
+  font-size:65px;
+  font-family:"Verdana";
+  color:white;
+  text-align:center;  
+  font-weight:bolder;
+}
+
+#header h3{
+  font-size:44px;
+  font-family:"Verdana";
+  color:white;
+  text-align:center;  
+  font-weight:bold;
+  margin-top:0px;
+}
+
+#background{
+  background-color:white;
+  width:100%;
+  overflow:hidden;
+  text-align:center; 
+  color:rgb(110, 110, 110); 
+  font-family:Arial;
+}
+
+.button{
+  width:950px;
+  height:48px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:rgb(0, 141, 206);
+  border: 3px solid rgba(0, 0, 0, 0.200);
+  color: white;
+  padding: 8px 18px;
+  text-align:center;
+  font-style:none;
+  text-decoration:none;
+  display:block;
+  font-size: 20px;
+  cursor: cursor;
+}
+
+.button:hover{
+  background-color:rgb(230, 230, 230);
+  color: black;
+  border: 3px solid rgba(0, 0, 0, 0.200);
+}
+
+.textbox{
+  width:950px;
+  height:55px;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 8px 18px;
+  border: 3px solid rgba(0, 0, 0, 0.200);
+  background-color:rgba(0, 0, 0, 0.03);
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size:24px;
+  cursor: cursor;
+}
+
+.menuSelectContainer{
+  height: 65px;
+  width: 65px;
+  display: block;
+  cursor: pointer;
+  padding: 8px 18px;
+  margin-top: -30px;
+}
+
+.bar1, .bar2, .bar3{
+  width: 35px;
+  height: 5px;
+  background-color: rgb(0, 141, 206);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.menuContainer {
+  height: 100%; 
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,130,185); 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+
+.menuContainer a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 35px;
+  color: white;
+  display: block;
+  transition: 0.10s;
+}
+
+.menuContainer a:hover {
+  background-color: rgb(175, 175, 175);
+  color:white;
+  text-decoration:initial;
+}
+
+.menuContainer .closeButton {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 50px;
+  margin-left: 50px;
+}
+
+#footer{
+  width:100%;
+  height:230px;
+  font-family:"Calibri";
+  color:white;
+  font-size:18px;
+  background-color:rgb(0, 141, 206);
+  margin-top:300px;
+  text-align: center;
+}
+
+#footertext{
+  text-align:center;
+  margin-left:225px;
+  font-size:16px;
+  float:left;
+  font-family:"Calibri";
+}
+
+.button2{
+  background-color:rgb(0,130,185);
+  border: 3px solid rgb(175, 175, 175);
+  color: white;
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: cursor;
+}
+
+.button2:hover{
+  background-color:rgb(230, 230, 230);
+  color: black;
+  border: 3px solid rgba(0, 0, 0, 0.200);
+}
+
+#topbutton {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 0px; 
+  z-index: 99; 
+  outline: none; 
+  background-color: rgb(0, 141, 206); 
+  color: white;
+  cursor: pointer; 
+  padding: 15px;
+  border-radius: 10px; 
+  font-size: 18px; 
+  border: 3px solid rgba(0, 0, 0, 0.200);
+}
+
+#topbutton:hover {
+  background-color: rgb(175, 175, 175); 
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JobFinder NYC</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+	</script>
+	<script src="script.js">
+	</script>
+</head>
+
+<body onload="getData()">
+	<div id="page">
+		<div class="jumbotron text-center" id="header">
+			<h1>JobFinder</h1>
+      <h3>NYC</h3>
+		</div>
+		<div id="menu" class="menuContainer">
+			<a href="javascript:void(0)" class="closeButton" onclick="closeMenu()">&times;</a>
+			<a href="index.html">Home</a><br>
+			<a href="FindYourJob.html">Find Your Job</a><br>
+			<a href="Map.html">Map</a><br>
+		</div>
+    <span onclick="openMenu()">
+      <div class="menuSelectContainer">
+			  <div class="bar1"></div>
+			  <div class="bar2"></div>
+			  <div class="bar3"></div>
+		  </div>
+    </span>
+		<div id="background">
+			<p style="font-size:16px;">Use the searchbar below to help you find out the job you desire</p>
+		  <input type="text" class="textbox" id="request" placeholder="Enter A Keyword">	
+      <input type="button" class="button" value="Search" onclick="showInfo()">
+      <button onclick="topFunction()" id="topbutton" title="Go to top">Top</button>
+      <div id="output"></div>
+    </div>
+  </div>
+  <div id="footer">
+    <div id="footertext">
+      <br>
+      <p>This website was made using repl.it</p>
+      <a href="https://repl.it/" target="_blank" class="button2">Click Here To Go To repl.it</a>
+      </div>
+      <div id="footertext">
+        <br>
+        <p>API data is from NYC Open Data</p>
+        <a href="https://opendata.cityofnewyork.us/" target="_blank" class="button2">Click Here To Go To NYC Open Data</a>
+      </div>
+      <div id="footertext">
+        <br>
+        <p>Map data is from MapQuest Static Map API</p>
+        <a href="https://developer.mapquest.com/" target="_blank" class="button2">Click Here To Go To MapQuest</a>
+      </div>  
+      <br><br><br><br><br><br>
+      <p>This website is owned and created by Timothy Ng</p>
+      <p>Copyright ©2019, All Rights Reserved</p>
+  </div>
+  </body>
+</html>
